@@ -1,4 +1,4 @@
-# Проект FitLife - MVP версия 1.0
+# Проект FitLife - MVP версия 1.0)
 # Константы
 WATER_PER_KG = 30
 LITER = 1000
@@ -15,12 +15,10 @@ user_height = float(input('Введите ваш рост (в метрах, на
 print('Отлично, мы собрали всю нужную информацию!')
 
 # 3. Расчет bmi (Индекс массы тела)
-bmi = user_weight / (user_height ** 2)
-bmi = round(bmi, 1)
+bmi = round(user_weight / (user_height ** 2), 1)
 
 # Подсчет воды: вес * 30 мл
-water_ml = user_weight * WATER_PER_KG
-water_l_rounded = round(water_ml / LITER, 2)
+water_l_rounded = round((user_weight * WATER_PER_KG)/ LITER, 2)
 
 # 4. Вывод результата.
 print(f'{user_name}, ваш отчет готов!')

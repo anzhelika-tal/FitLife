@@ -18,7 +18,7 @@ print('Отлично, мы собрали всю нужную информац�
 bmi = round(user_weight / (user_height ** 2), 1)
 
 # Подсчет воды: вес * 30 мл
-water_l_rounded = round((user_weight * WATER_PER_KG)/ LITER, 2)
+water_l_rounded = round((user_weight * WATER_PER_KG) / LITER, 2)
 
 # 4. Вывод результата.
 print(f'{user_name}, ваш отчет готов!')
